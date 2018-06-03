@@ -1,0 +1,43 @@
+[debug] [2018-05-28T15:55:56.569Z] ----------------------------------------------------------------------
+[debug] [2018-05-28T15:55:56.571Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-28T15:55:56.571Z] CLI Version:   3.18.4
+[debug] [2018-05-28T15:55:56.571Z] Platform:      darwin
+[debug] [2018-05-28T15:55:56.571Z] Node Version:  v8.9.1
+[debug] [2018-05-28T15:55:56.572Z] Time:          Mon May 28 2018 17:55:56 GMT+0200 (CEST)
+[debug] [2018-05-28T15:55:56.572Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-28T15:55:56.580Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-28T15:55:56.580Z] > authorizing via signed-in user
+[debug] [2018-05-28T15:55:56.582Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-28T15:55:56.582Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/RDAeZTjicFvZksJcFPyb7Ik3djnL-1kU9S5I8dHF1I9vsuKEYlBW542Zc2i25PHy',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon May 28 2018 17:55:56 GMT+0200 (CEST)
+[debug] [2018-05-28T15:55:57.612Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-28T15:55:57.621Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/labonneliste-ef07b  
+  
+ Mon May 28 2018 17:55:57 GMT+0200 (CEST)
+[debug] [2018-05-28T15:55:58.260Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-28T15:55:58.261Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/labonneliste-ef07b/tokens  
+  
+ Mon May 28 2018 17:55:58 GMT+0200 (CEST)
+[debug] [2018-05-28T15:55:59.355Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-28T15:55:59.356Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/labonneliste-ef07b  
+  
+ Mon May 28 2018 17:55:59 GMT+0200 (CEST)
+[debug] [2018-05-28T15:56:00.099Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/yannis/dev/flutter/coincoin_functions'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-28T15:56:00.613Z] Fetching environment
+[debug] [2018-05-28T15:56:00.614Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/482137896343:getServerAppConfig  
+  
+ Mon May 28 2018 17:56:00 GMT+0200 (CEST)
+[debug] [2018-05-28T15:56:01.237Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-28T15:56:01.237Z] Starting @google-cloud/functions-emulator
+[debug] [2018-05-28T15:56:02.281Z] Parsing function triggers
+[info] ✔  functions: webhook: http://localhost:5000/labonneliste-ef07b/us-central1/webhook
