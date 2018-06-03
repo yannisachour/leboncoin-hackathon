@@ -168,7 +168,7 @@ app.intent('ask_for_place_confirmation', (conv, params, signin) => {
 //     //secure: false, // true for 465, false for other ports
 //     auth: {
 //         user: 'yannis.achour@gmail.com', // generated ethereal user
-//         pass: 'OuagadougoU_2000' // generated ethereal password
+//         pass: 'xxx' // generated ethereal password
 //     }
 // });
 
