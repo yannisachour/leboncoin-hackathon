@@ -258,27 +258,3 @@ app.intent('ask_for_place_confirmation', (conv, params, signin) => {
 //     }
 
 
-
-
-//to be removed if committed !!!
-
-//Google calendar api integration credentials
-//clientid
-//482137896343-18hgdnak3753ugtonnm36u1jce2tj2e1.apps.googleusercontent.com
-//secret
-//Lm35LXydxWzqM1K2_ivHtpxN
-
-//firebase project credentials : 
-// <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
-// <script>
-//   // Initialize Firebase
-//   var config = {
-//     apiKey: "AIzaSyDViJQ3IApdYY6dfuc9FZkMmZl786SIRVk",
-//     authDomain: "labonneliste-ef07b.firebaseapp.com",
-//     databaseURL: "https://labonneliste-ef07b.firebaseio.com",
-//     projectId: "labonneliste-ef07b",
-//     storageBucket: "labonneliste-ef07b.appspot.com",
-//     messagingSenderId: "482137896343"
-//   };
-//   firebase.initializeApp(config);
-// </script>
